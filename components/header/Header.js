@@ -1,6 +1,6 @@
 import styles from "../header/Header.module.css";
 import Image from "next/image";
-import logo from "../../../public/logo.png";
+import logo from "../../public/logo.png";
 import DownloadButton from "../button/DownloadButton";
 
 function Header() {

@@ -1,8 +1,8 @@
 import React from "react";
 import styles from "./VideoSection.module.css";
-import video from "../../../public/videos/video.mov";
+import video from "../../public/videos/video.mov";
 import Image from "next/image";
-import appleLogo from "../../../public/apple-primary.svg";
+import appleLogo from "../../public/apple-primary.svg";
 function VideoSection() {
   return (
     <div className={styles.video_section}>

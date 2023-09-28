@@ -1,13 +1,13 @@
 import styles from "@/styles/Home.module.css";
-import Header from "./components/header/Header";
-import Hero from "./components/hero/Hero";
-import VideoSection from "./components/videoSection/VideoSection";
-import Footer from "./components/footer/Footer";
+import Header from "../components/header/Header";
+import Hero from "../components/hero/Hero";
+import VideoSection from "../components/videoSection/VideoSection";
+import Footer from "../components/footer/Footer";
 import Head from "next/head";
-import isAppleDevice from "./utils/DeviceDetect";
+import isAppleDevice from "../utils/DeviceDetect";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
-import { setDevice } from "./store/slices/DeviceSlice";
+import { setDevice } from "../store/slices/DeviceSlice";
 
 export default function Home() {
   const dispatch = useDispatch();

@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 import styles from "./DownloadButton.module.css";
 import { useSelector } from "react-redux";
-import appleLogo from "../../../public/apple-white.svg";
-import appleLogoPrimary from "../../../public/apple-primary.svg";
-import windowsLogoPrimary from "../../../public/windows-primary.svg";
-import windowsLogo from "../../../public/windows-white.svg";
-import DownloadFile from "@/pages/utils/DownloadFile";
+import appleLogo from "../../public/apple-white.svg";
+import appleLogoPrimary from "../../public/apple-primary.svg";
+import windowsLogoPrimary from "../../public/windows-primary.svg";
+import windowsLogo from "../../public/windows-white.svg";
+import DownloadFile from "@/utils/DownloadFile";
 
 function DownloadButton(props) {
   let logo, downloadDevice;
