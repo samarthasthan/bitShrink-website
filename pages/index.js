@@ -18,7 +18,7 @@ export default function Home() {
     } else {
       dispatch(setDevice("win"));
     }
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className={styles.app}>
