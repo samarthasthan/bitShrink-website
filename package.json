@@ -9,11 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@reduxjs/toolkit": "^1.9.6",
     "file-loader": "^6.2.0",
     "next": "latest",
     "next-cloudinary": "^4.22.0",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-redux": "^8.1.2"
   },
   "devDependencies": {
     "eslint": "latest",

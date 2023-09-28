@@ -1,9 +1,8 @@
-import React from "react";
 import styles from "../header/Header.module.css";
 import Image from "next/image";
 import logo from "../../../public/logo.png";
 import DownloadButton from "../button/DownloadButton";
-import appleLogo from "../../../public/apple-primary.svg";
+
 function Header() {
   return (
     <div className={`${styles.header}`}>
@@ -22,8 +21,6 @@ function Header() {
         <DownloadButton
           backgroundColor="var(--border-color)"
           forgroundColor="var(--primary-color)"
-          systemName="Mac"
-          logo={appleLogo}
         ></DownloadButton>
       </div>
     </div>
