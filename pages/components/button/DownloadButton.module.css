@@ -1,0 +1,25 @@
+.download_button {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 15px;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .download_button {
+    width: auto;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+}

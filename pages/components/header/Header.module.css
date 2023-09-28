@@ -1,0 +1,51 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.logo_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo_name {
+  font-size: var(--heading-size);
+  font-weight: var(--heading-weight);
+}
+
+.logo_icon {
+  width: 46px;
+  height: 46px;
+  filter: drop-shadow(0 0 0.2rem var(--border-color));
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .menu {
+    display: none;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .menu {
+    display: none;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+}

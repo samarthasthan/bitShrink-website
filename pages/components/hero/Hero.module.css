@@ -1,0 +1,76 @@
+.hero_section {
+  height: auto;
+}
+
+.hero_section .content {
+  width: 60%;
+  padding: 50px 5vw;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.hero_section .text {
+  font-size: 6vw;
+  font-weight: 800;
+}
+
+.hero_section .buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .hero_section {
+    display: flex;
+    justify-content: center;
+    height: auto;
+  }
+  .hero_section .content {
+    width: 90%;
+    padding: 10px 0px;
+  }
+  .hero_section .text {
+    font-size: 15vw;
+  }
+  .hero_section .buttons {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* Media Query for low resolution  Tablets, Ipads */
+@media (min-width: 481px) and (max-width: 767px) {
+  .hero_section {
+    display: flex;
+    justify-content: center;
+    height: auto;
+  }
+  .hero_section .content {
+    width: 90%;
+    padding: 10px 0px;
+  }
+  .hero_section .text {
+    font-size: 15vw;
+  }
+  .hero_section .buttons {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+/* Media Query for Tablets Ipads portrait mode */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .hero_section {
+    height: auto;
+  }
+  .hero_section .content {
+    width: 90%;
+  }
+  .hero_section .text {
+    font-size: 10vw;
+    font-weight: 800;
+  }
+}
