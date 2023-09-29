@@ -11,7 +11,7 @@ function VideoSection() {
         muted
         loop
         playsInline
-        src={video}
+        src="https://asthan-my.sharepoint.com/:v:/g/personal/samarth_asthan_onmicrosoft_com/Ed0AgnBSVfZJn-tuJSv8pqABH719ZGvucilEn4AMcl2xuQ?download=1"
         type="video/mp4"
         className={styles.video}
       />
