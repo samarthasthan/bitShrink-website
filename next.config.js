@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   webpack(config) {
     config.module.rules.push({
-      test: /\.(mov|mp4)$/,
+      test: /\.(mov|mp4|webm)$/,
       use: {
         loader: "file-loader",
         options: {

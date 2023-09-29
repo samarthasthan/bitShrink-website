@@ -13,7 +13,7 @@
 .features_section {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Create 4 columns with equal width */
-  gap: 50px; /* Add some gap between grid items for spacing */
+  gap: 90px; /* Add some gap between grid items for spacing */
   padding: 70px 0px;
   width: 90%;
 }
@@ -33,6 +33,7 @@
     padding: 50px 0px;
     grid-template-columns: repeat(2, 1fr);
     width: 90%;
+    gap: 30px;
   }
 }
 
@@ -42,6 +43,7 @@
     padding: 50px 0px;
     grid-template-columns: repeat(2, 1fr);
     width: 90%;
+    gap: 30px;
   }
 }
 
