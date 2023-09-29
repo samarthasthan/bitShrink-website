@@ -32,16 +32,21 @@
   gap: 30px;
 }
 
+.menu_btn {
+  text-decoration: none;
+  color: var(--black-color);
+}
+
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
-  .menu {
+  .DownloadButton {
     display: none;
   }
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
-  .menu {
+  .DownloadButton {
     display: none;
   }
 }

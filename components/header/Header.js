@@ -16,12 +16,18 @@ function Header() {
         <p className={`${styles.logo_name}`}>bitShrink</p>
       </div>
       <div className={`${styles.menu}`}>
-        <p className={`${styles.menu_btn}`}>Contact</p>
-        <p className={`${styles.menu_btn}`}>Twitter</p>
-        <DownloadButton
-          backgroundColor="var(--border-color)"
-          forgroundColor="var(--primary-color)"
-        ></DownloadButton>
+        <a
+          href="mailto:samarthasthan27@gmail.com"
+          className={`${styles.menu_btn}`}
+        >
+          Contact
+        </a>
+        <div className={styles.DownloadButton}>
+          <DownloadButton
+            backgroundColor="var(--border-color)"
+            forgroundColor="var(--primary-color)"
+          ></DownloadButton>
+        </div>
       </div>
     </div>
   );
