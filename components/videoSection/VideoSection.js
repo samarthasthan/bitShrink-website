@@ -10,7 +10,7 @@ function VideoSection() {
         muted
         loop
         playsInline
-        src="https://asthan-my.sharepoint.com/:v:/g/personal/samarth_asthan_onmicrosoft_com/Ed0AgnBSVfZJn-tuJSv8pqABH719ZGvucilEn4AMcl2xuQ?download=1"
+        src="https://drive.google.com/uc?id=1xOsieVHCiZKBWuwvRw_-bzjHpC6u_iCi"
         type="video/mp4"
         className={styles.video}
       />
