@@ -16,6 +16,7 @@ function Header() {
         <p className={`${styles.logo_name}`}>bitShrink</p>
       </div>
       <div className={`${styles.menu}`}>
+        <p>Version: 1.0.1</p>
         <a
           href="mailto:samarthasthan27@gmail.com"
           className={`${styles.menu_btn}`}

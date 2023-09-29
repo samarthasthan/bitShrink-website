@@ -1,10 +1,10 @@
-import VERSION_1_0_0 from "../constants";
+import { VERSION_1_0_1 } from "../constants";
 function DownloadFile(value) {
   const downloadLink = document.createElement("a");
   if (value === "apple") {
-    downloadLink.href = VERSION_1_0_0.mac;
+    downloadLink.href = VERSION_1_0_1.mac;
   } else {
-    downloadLink.href = VERSION_1_0_0.windows;
+    downloadLink.href = VERSION_1_0_1.windows;
   }
   downloadLink.download = "desired-filename.ext"; // Specify the desired file name
   document.body.appendChild(downloadLink);

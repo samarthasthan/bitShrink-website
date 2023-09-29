@@ -42,9 +42,16 @@
   color: var(--black-color);
 }
 
+.menu p {
+  font-weight: 400;
+}
+
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
   .DownloadButton {
+    display: none;
+  }
+  .menu p {
     display: none;
   }
 }
