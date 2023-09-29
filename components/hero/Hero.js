@@ -6,7 +6,7 @@ function Hero() {
     <div className={`${styles.hero_section}`}>
       <div className={`${styles.content}`}>
         <p className={styles.text}>
-          A tiny time tracker for your next big project
+          {`Shrink, Don't Sink! Compressing images made simple`}
         </p>
         <div className={styles.buttons}>
           <DownloadButton

@@ -16,6 +16,9 @@ const nextConfig = {
 
     return config;
   },
+  images: {
+    domains: ["img.icons8.com"],
+  },
 };
 
 module.exports = nextConfig;
