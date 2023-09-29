@@ -51,7 +51,7 @@ function DownloadButton(props) {
     }
   }
 
-  return (
+  return device ? (
     <div
       className={`${styles.download_button}`}
       style={background}
@@ -64,6 +64,8 @@ function DownloadButton(props) {
         {`Download for ${downloadDevice}`}
       </p>
     </div>
+  ) : (
+    <div></div>
   );
 }
 

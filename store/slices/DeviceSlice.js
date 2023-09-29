@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
-  device: "windows",
+  device: null,
 };
 
 export const deviceSlice = createSlice({
