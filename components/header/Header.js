@@ -9,7 +9,7 @@ function Header() {
       <div className={`${styles.logo_section}`}>
         <Image
           src={logo}
-          alt="logo"
+          alt="bitShrink Image Compressor 20KB" title="bitShrink Image Compressor 20KB"
           className={`${styles.logo_icon}`}
           priority={true}
         ></Image>

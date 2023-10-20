@@ -23,7 +23,8 @@ export default function Home() {
   return (
     <div className={styles.app}>
       <Head>
-        <title>bitShrink</title>
+        <title>bitShrink: Image Compression to 20KB, 100KB, 50KB - Optimize Your Images</title>
+        <meta name="description" content="Unlock swift image compression with bitShrink! Download our user-friendly tool to resize images effortlessly to 20KB, 100KB, or 50KB. Improve website speed and save storage space now!" />
       </Head>
       <Header></Header>
       <Hero></Hero>

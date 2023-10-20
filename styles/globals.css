@@ -4,8 +4,7 @@
   padding: 0px;
   margin: 0px;
   font-family: var(--font);
-  font-size: 18px;
-  font-weight: 600;
+
 }
 
 :root {
@@ -30,16 +29,12 @@ body {
 
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
-  * {
-    font-size: 16px;
-  }
+  
 }
 
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
-  * {
-    font-size: 16px;
-  }
+ 
 }
 
 /* Media Query for Tablets Ipads portrait mode */
