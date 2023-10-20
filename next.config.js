@@ -19,15 +19,6 @@ const nextConfig = {
   images: {
     domains: ["img.icons8.com"],
   },
-  async redirects() {
-    return [
-      {
-        source: '/:query',
-        destination: '/',
-        permanent: true,
-      },
-    ]
-  },
 };
 
 module.exports = nextConfig;
